@@ -1,8 +1,9 @@
 import React from "react";
+import styles from './cryptoMindAISection.module.scss';
 
 const CryptoMindAISection = () => {
     return (
-        <div>
+        <div className={styles.container}>
             modal
         </div>
     )
