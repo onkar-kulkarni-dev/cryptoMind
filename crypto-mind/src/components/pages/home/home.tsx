@@ -1,5 +1,5 @@
 import React from "react";
-import CryptoMindAISection from "./CryptoMindAISection.tsx";
+import CryptoMindAISection from "./CryptoMindAISection";
 
 const Home = () => {
     return(

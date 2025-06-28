@@ -2,6 +2,11 @@
   "compilerOptions": {
     "traceResolution": true,
     "target": "es2016",
+    "types": [
+      "react",
+      "react-dom",
+      "node"
+    ],
     "jsx": "react-jsx",
     "module": "commonjs",
     "moduleResolution": "node",
