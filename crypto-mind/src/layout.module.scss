@@ -1,0 +1,6 @@
+@import './common/styles/variables';
+
+.container{
+    background: linear-gradient(to right, var(--primaryBlueSoft), var(--secondaryPurpleSoft));
+    height: 100vh;
+}
