@@ -1,5 +1,37 @@
-.container{
-    width:10rem;
-    height:10rem;
-    background: linear-gradient(to right, #429EEF, #9F87FF);
+@import '../../../common/variables';
+
+.container {
+    width: 27rem;
+    height: 22rem;
+    background: linear-gradient(to right, var(--primaryBlue), var(--secondaryPurple));
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.title {
+    color:var(--white);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.section {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 16px;
+    background-color: var(--white);
 }
