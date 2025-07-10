@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './input.module.scss';
+import styles from './searchBox.module.scss';
 
 type Props = {
     type: string
@@ -7,13 +7,13 @@ type Props = {
     icon: any
 }
 
-const InputBox:React.FC<Props> = ({type, placeHolder, icon}) => {
+const SearchBox:React.FC<Props> = ({type, placeHolder, icon}) => {
     return(
-        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', position: 'relative'}}>
             <input type= {type} placeholder={placeHolder} className={styles.input}/>
             <img src={icon} alt={`${placeHolder} icon`} className={styles.icon}/>
         </div>
     )
 }
 
-export default InputBox
+export default SearchBox

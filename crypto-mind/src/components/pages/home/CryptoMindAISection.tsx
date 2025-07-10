@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './cryptoMindAISection.module.scss';
 import CryptoMindWhiteIcon from '../../../assets/cryptoMind_white.svg'
-import InputBox from "components/shared/UI/input";
+import SearchBox from "components/shared/UI/searchBox";
 import SearchAIIcon from '../../../assets/ai_search.svg';
 import Toggle from "components/shared/UI/toggle";
 import { ReactComponent as AIMarketPredictor } from '../../../assets/ai_market_predictor.svg';
@@ -31,7 +31,7 @@ const CryptoMindAISection = () => {
                 </section>
             </div>
             <div className={styles.boxContainer}>
-                <InputBox type={'text'} icon={SearchAIIcon} placeHolder={'Search with AI'} />
+                <SearchBox type={'text'} icon={SearchAIIcon} placeHolder={'Search with AI'} />
                 <Toggle />
             </div>
         </div>
