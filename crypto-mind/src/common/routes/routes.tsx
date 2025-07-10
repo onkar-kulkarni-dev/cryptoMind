@@ -17,7 +17,6 @@ const RoutesComponent = () => {
             <Route path='/market' Component={Market}/>
             <Route path='/analytic' Component={Analytics}/>
             <Route path='*' Component={Page404}/>
-            {/* Fallback route to Home for any unmatched paths */}
         </Routes>
     )
 }
