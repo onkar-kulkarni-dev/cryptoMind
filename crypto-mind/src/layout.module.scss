@@ -1,6 +1,41 @@
+// @import './common/styles/variables';
+
+// .container{
+//     background: linear-gradient(to right, var(--primaryBlueSoft), var(--secondaryPurpleSoft));
+//     height: 100vh;
+// }
+
 @import './common/styles/variables';
 
-.container{
+.container {
     background: linear-gradient(to right, var(--primaryBlueSoft), var(--secondaryPurpleSoft));
     height: 100vh;
+    overflow: hidden;
+    /* Prevent body scroll */
+    position: relative;
+}
+
+.container :global(nav) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Scrolling area */
+.content {
+    height: 80vh;
+    overflow-y: auto;
+    padding-top: 60px;
+    /* Adjust to your Navbar height */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Edge */
 }

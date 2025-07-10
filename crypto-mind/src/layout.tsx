@@ -6,11 +6,13 @@ type Props = {
     children: any
 }
 
-const Layout: React.FC<Props> = ({children}) => {
-    return(
+const Layout: React.FC<Props> = ({ children }) => {
+    return (
         <div className={styles.container}>
             <Navbar />
-            {children}
+            <div className={styles.content}>
+                {children}
+            </div>
         </div>
     )
 }
