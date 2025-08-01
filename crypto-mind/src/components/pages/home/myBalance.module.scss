@@ -16,8 +16,90 @@
 }
 
 .firstCard {
-background-color: var(--primaryBlue);
-border-radius: 16px;
-width: 50%;
-height: 150px;
+    background-color: var(--primaryBlue);
+    border-radius: 16px;
+    width: 50%;
+    height: 110px;
+    padding: 20px;
+}
+
+.secondCard {
+    background-color: var(--white);
+    border-radius: 16px;
+    width: 50%;
+    height: 110px;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--black)
+}
+
+.weekly {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    width: 6rem;
+    border: 1px solid var(--white);
+    height: 2.5rem;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.myBalancetext {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.currentBalance {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--white);
+    margin-top: 10px;
+}
+
+.weekPoints {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    margin-top: 5px;
+}
+
+.fastActionText {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border: 1px;
+    outline: 1px solid var(--primaryBlue);
+    background-color: var(--secondaryGrey);
+    border-radius: 16px;
+    padding: 5px
+}
+
+.payWith {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+.usdWallet {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.walletPoints {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
 }

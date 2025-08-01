@@ -1,10 +1,14 @@
 import React from "react";
 import styles from './viewMore.module.scss';
 
-const ViewMore = () => {
-    return(
-        <div className={styles.container}>
-            <p style={{fontSize: '32px'}}>&middot;&middot;&middot;</p>
+type Props = {
+    color?: string;
+}
+
+const ViewMore: React.FC<Props> = ({ color }) => {
+    return (
+        <div className={styles.container} style={{borderColor: color}}>
+            <p style={{ fontSize: '32px', color: color }}>&middot;&middot;&middot;</p>
         </div>
     )
 }
