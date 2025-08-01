@@ -10,7 +10,7 @@ export const TOP_MOVERS = [
         title: "Bitcoin",
         symbol: "BTC",
         price: 45000,
-        change: 5.2,
+        change: '+5.2',
         icon: BitcoinIcon
     },
     {
@@ -18,7 +18,7 @@ export const TOP_MOVERS = [
         title: "Ethereum",
         symbol: "ETH",
         price: 3000,
-        change: 3.8,
+        change: '+3.8',
         icon: EthereumIcon
     },
     {
@@ -26,7 +26,7 @@ export const TOP_MOVERS = [
         title: "XRP",
         symbol: "XRP",
         price: 1.2,
-        change: 4.5,
+        change: '-4.5',
         icon: XRPIcon
     },
     {
@@ -34,7 +34,7 @@ export const TOP_MOVERS = [
         title: "Solana",
         symbol: "SOL",
         price: 150,
-        change: 2.1,
+        change: '+2.1',
         icon: SolanaIcon
     },
     {
@@ -42,7 +42,7 @@ export const TOP_MOVERS = [
         title: "Cardano",
         symbol: "ADA",
         price: 0.5,
-        change: 6.0,
+        change: '-6.0',
         icon: CardanoIcon
     }
 ]

@@ -24,8 +24,8 @@ const TopMovers = () => {
                                 <p className={styles.itemTitle}>{item.title}</p>
                                 <p className={styles.symbol}>{item.symbol}</p>
                             </div>
-                            <p style={{width: '20%', textAlign: 'right'}}>{item.change}</p>
-                            <p style={{width: '30%', textAlign: 'right'}}>{item.price}</p>
+                            <p style={{width: '20%', textAlign: 'right', color: item.change.includes('+') ? 'green' : 'red', fontWeight: '600'}}>{item.change}</p>
+                            <p style={{width: '30%', textAlign: 'right', fontWeight: '500'}}>{item.price}</p>
                         </div>
                     )
                 })}
