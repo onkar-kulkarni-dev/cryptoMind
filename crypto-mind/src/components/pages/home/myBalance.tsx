@@ -79,6 +79,15 @@ const MyBalance = () => {
                     </div>
                 </div>
             </div>
+            <div>
+                <div>
+                    <p>Uniswap Analyics</p>
+                    
+                </div>
+                <div>
+
+                </div>
+            </div>
         </div>
     )
 }
