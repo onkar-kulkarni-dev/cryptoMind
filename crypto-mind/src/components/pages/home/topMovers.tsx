@@ -13,7 +13,7 @@ const TopMovers = () => {
                     <TopMoversIcon />
                     <p className={styles.title}>Top Movers</p>
                 </div>
-                <ViewMore color={'var(borderGrey)'} />
+                <ViewMore color={'var(borderGrey)'} type="dot"/>
             </div>
             <div>
                 {TOP_MOVERS.map((item) => {

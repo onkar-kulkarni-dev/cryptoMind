@@ -51,7 +51,7 @@ const MyBalance = () => {
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
                             <p className={styles.weekly}>Weekly<DropDownWhiteIcon /></p>
-                            <ViewMore color={'white'} />
+                            <ViewMore color={'white'} type="dot"/>
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: '20px' }}>
