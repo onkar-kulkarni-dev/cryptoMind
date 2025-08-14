@@ -1,0 +1,33 @@
+@import '../../../common/styles/breakpoints';
+
+.homeContainer {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.smallTopSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.smallTBottomSection{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}

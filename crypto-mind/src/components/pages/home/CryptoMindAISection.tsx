@@ -30,8 +30,10 @@ const CryptoMindAISection = () => {
                     <p style={{ padding: '0 20px', fontSize: '14px', color: 'var(--grey)' }}>Investment objectives to recommended optimal asset allocation settings.</p>
                 </section>
             </div>
-            <div className={styles.boxContainer}>
-                <SearchBox type={'text'} icon={SearchAIIcon} placeHolder={'Search with AI'} />
+            <div className={styles.searchContainer}>
+                <div className={styles.searchBox}>
+                    <SearchBox type={'text'} icon={SearchAIIcon} placeHolder={'Search with AI'} />
+                </div>
                 <Toggle />
             </div>
         </div>

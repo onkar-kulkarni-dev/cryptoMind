@@ -1,4 +1,5 @@
 @import "../../../common/styles/_variables.scss";
+@import "../../../common/styles/_breakpoints.scss";
 
 .container {
     display: flex;
@@ -7,6 +8,14 @@
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
+
+    @include tablet {
+        flex-direction: row-reverse;
+    }
+
+    @include laptop {
+        flex-direction: row-reverse;
+    }
 }
 
 .logoText {
