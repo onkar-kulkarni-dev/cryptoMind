@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Layout from './layout';
 import RoutesComponent from 'common/routes/routes';
+import '../src/common/styles/_variables.scss';
 
 function App() {
   return (

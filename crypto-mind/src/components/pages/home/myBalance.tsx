@@ -7,7 +7,8 @@ import { ReactComponent as DropDownWhiteIcon } from '../../../assets/dropdownWhi
 import Button from "components/shared/UI/button";
 import { ReactComponent as ReceiveIcon } from '../../../assets/receiveIcon.svg';
 import { ReactComponent as SendIcon } from '../../../assets/sendIcon.svg';
-import { ReactComponent as BlackDollarIcon } from '../../../assets/blackBorderedDollarIcon.svg'
+import { ReactComponent as BlackDollarIcon } from '../../../assets/blackBorderedDollarIcon.svg';
+import { UNISWAP_ANALYTICS } from "data/home/uniswapAnalytics";
 
 const MyBalance = () => {
 
@@ -79,10 +80,18 @@ const MyBalance = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <p>Uniswap Analyics</p>
-                    
+            <div className={styles.uniswapAnalytics}>
+                <div className={styles.firstColumn}>
+                    <p className={styles.uniswapTitle}>Uniswap Analyics</p>
+                    {UNISWAP_ANALYTICS.map((item) => {
+                        return <div key={item.id} className={styles.block}>
+                            <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
+                                <div className={styles.dot} style={{ backgroundColor: item.title == "LP PERF" ? 'var(--primaryBlue)' : 'var(--primaryGrey)' }}></div>
+                                <p className={styles.blockTitle}>{item.title}</p>
+                            </div>
+                            <p className={styles.blockValue}>{item.value}</p>
+                        </div>
+                    })}
                 </div>
                 <div>
 

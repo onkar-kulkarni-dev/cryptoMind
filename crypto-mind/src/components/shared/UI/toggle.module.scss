@@ -1,6 +1,6 @@
 @import '../../../common/styles/variables';
 
-.container{
+.container {
     width: 4rem;
     height: 1.5rem;
     background-color: var(--white);
@@ -12,14 +12,14 @@
     align-items: center;
 }
 
-.btn{
+.btn {
     background-color: var(--white);
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-.selectedBtn{
+.selectedBtn {
     border: none;
     outline: none;
     cursor: pointer;

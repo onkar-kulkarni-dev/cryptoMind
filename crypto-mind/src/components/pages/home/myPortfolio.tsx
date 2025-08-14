@@ -12,7 +12,7 @@ const MyPortfolio = () => {
                     <MyPortfolioIcon />
                     <p className={styles.title}>My Portfolio</p>
                 </div>
-                <ViewMore color={'black'} />
+                <ViewMore color={'var(borderGrey)'} />
             </div>
             {/* <div>
                 <table>

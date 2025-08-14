@@ -18,14 +18,14 @@ const CryptoMindAISection = () => {
                 <section className={styles.section}>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: '15px 20px', gap: '20px' }}>
                         <AIMarketPredictor style={{ width: '3.5rem', height: '3.5rem' }} />
-                        <p style={{fontWeight: '500'}}>AI Market Predictor</p>
+                        <p style={{ fontWeight: '500' }}>AI Market Predictor</p>
                     </div>
                     <p style={{ padding: '0 20px', fontSize: '14px', color: 'var(--grey)' }}>Analyze crypto market data in real-time, including trading volume.</p>
                 </section>
                 <section className={styles.section}>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: '15px 20px', gap: '20px' }}>
                         <AIPortfolioOptimizer style={{ width: '3.5rem', height: '3.5rem' }} />
-                        <p style={{fontWeight: '500'}}>AI Portfolio Optimizer</p>
+                        <p style={{ fontWeight: '500' }}>AI Portfolio Optimizer</p>
                     </div>
                     <p style={{ padding: '0 20px', fontSize: '14px', color: 'var(--grey)' }}>Investment objectives to recommended optimal asset allocation settings.</p>
                 </section>
